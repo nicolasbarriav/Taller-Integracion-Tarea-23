@@ -29,8 +29,6 @@ const str = `postgres://${connection.user}:${connection.password}@localhost:5432
 const pgp = require('pg-promise')(initOptions)
 
 // Configura la conexión a tu base de datos PostgreSQL
-const db = pgp({
-    connectionString: str,
-});
+const db = pgp(connection);
 
 module.exports = db;

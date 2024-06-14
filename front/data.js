@@ -1,4 +1,4 @@
-const mainUrl = "http://localhost:3000";
+const mainUrl = "https://tarea-3-nicolasbarriav.onrender.com";
 const graph = ['Producto más comprado', 'Categoría de producto más popular', 'Cliente que ha realizado más compras', 'Cantidad total gastada por el cliente que más ha gastado', 'Calificación promedio de los productos comprados', 'Distribución de los métodos de pago utilizados', 'Ciudad con más compras realizadas', 'Tasa de devoluciones (cancelaciones) de productos', 'Peso promedio de los productos comprados', 'Ventas a lo largo del tiempo'];
 
 window.onload = async function () {
